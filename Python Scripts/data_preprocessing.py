@@ -1,21 +1,18 @@
 import os
-import numpy as np
 import cv2
 import rasterio
+import warnings
+import numpy as np
+import pandas as pd
+from PIL import Image
+import tensorflow as tf
+import tifffile as tiff
 from rasterio import warp
+from tifffile import imread
 from rasterio.enums import Resampling
 from matplotlib.colors import ListedColormap
-import pandas as pd
-import tensorflow as tf
 from tensorflow.keras.preprocessing import image_dataset_from_directory
 from tensorflow.keras.preprocessing.image import array_to_img, img_to_array, load_img, ImageDataGenerator
-from PIL import Image 
-import warnings
-import tifffile as tiff
-warnings.filterwarnings("ignore")
-
-import os
-from tifffile import imread
 
 def scale_data(data):
     min_value, max_value = np.percentile(data, [2, 98])
