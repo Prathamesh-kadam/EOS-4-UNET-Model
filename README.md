@@ -8,7 +8,7 @@ This repository contains selected modules and scripts related to the polar sea i
 Certain advanced algorithmic components and proprietary model optimization codes are currently withheld due to ongoing publication and intellectual property considerations. These components will be made available upon formal publication of the accompanying research article.
 
 Access to Withheld Code
-Collaborators, reviewers, or interested researchers seeking access to the full codebase during the peer review process or for academic purposes are encouraged to contact the corresponding author via email at [your.email@example.com]. Access may be granted under mutually agreed terms.
+Collaborators, reviewers, or interested researchers seeking access to the full codebase during the peer review process or for academic purposes are encouraged to contact the corresponding author via email at [kprathamesh082@gmail.com]. Access may be granted under mutually agreed terms.
 
 Future Updates
 Following publication, the repository will be fully updated with all code, detailed documentation, and additional datasets (subject to redistribution agreements). Users will be notified via the repository announcements and publication links.
