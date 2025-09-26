@@ -1,8 +1,8 @@
-from keras.layers import Input, Conv2D, MaxPooling2D, UpSampling2D, concatenate, Dropout
 from tensorflow.keras import Model
-from tensorflow.keras.utils import to_categorical
-from tensorflow.keras.utils import to_categorical
 from IPython.display import clear_output
+from tensorflow.keras.utils import to_categorical
+from tensorflow.keras.utils import to_categorical
+from keras.layers import Input, Conv2D, MaxPooling2D, UpSampling2D, concatenate, Dropout
 
 IMG_WIDTH = 256
 IMG_HEIGHT = 256
